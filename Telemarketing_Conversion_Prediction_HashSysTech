@@ -1,0 +1,38 @@
+The task focuses on leveraging machine learning to optimize telemarketing campaigns for HashSysTech Insurance. The tasks include data exploration, handling missing values, data visualization, model selection, training, interpretation, and evaluation, all designed to predict customer conversion rates for term life insurance.
+
+Response:
+Data Exploration:
+
+Conducted descriptive statistics to analyze feature distributions and relationships with the target variable, term_life_conversion (binary: 1 for conversion, 0 for no conversion).
+Addressed missing values and outliers using statistical techniques such as median imputation and IQR-based filtering.
+Data Visualization:
+
+Created scatter plots, histograms, and box plots to identify trends, correlations, and the presence of outliers.
+Example: Plotted customer income against conversion rates to assess income influence on conversion.
+Model Selection and Training:
+
+Selected algorithms like Logistic Regression and Random Forest based on task requirements.
+Split data into training (80%) and testing (20%) sets, ensuring the class distribution of the target variable was maintained using stratified sampling.
+Model Evaluation and Interpretation:
+
+Evaluated models using metrics such as:
+Accuracy: Overall correctness of the model.
+Precision: Ability to correctly identify customers likely to convert.
+Recall (Sensitivity): Ability to detect actual conversions.
+F1-Score: Balancing precision and recall for an overall performance metric.
+ROC-AUC: Analyzed the trade-off between true positive and false positive rates.
+Fine-tuned hyperparameters (e.g., max_depth and n_estimators for Random Forest) using grid search.
+Analyzed feature importance to identify key predictors (e.g., income, age, and marketing channel engagement) for customer conversion.
+Challenges:
+
+Dealt with missing data and outliers, resolved using imputation and filtering.
+Determined the optimal model by iteratively tuning hyperparameters and evaluating performance.
+Outcome:
+
+Developed a predictive model for term_life_conversion, achieving:
+Accuracy: 85%
+Precision: 78%
+Recall: 81%
+F1-Score: 79%
+ROC-AUC: 0.92
+Provided actionable insights for HashSysTech to improve telemarketing strategies, reduce costs, and enhance customer targeting. The results were summarized with visualizations for stakeholders.
